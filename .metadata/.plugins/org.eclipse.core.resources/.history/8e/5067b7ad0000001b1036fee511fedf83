@@ -1,0 +1,17 @@
+package com.jobready.producerconsumer;
+
+import java.util.concurrent.BlockingQueue;
+
+public class Producer implements Runnable {
+	
+	BlockingQueue<Integer> questionQueue;
+	
+	public Producer(BlockingQueue<Integer> questionQueue) {
+		
+	}
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+}

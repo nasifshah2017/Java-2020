@@ -1,0 +1,17 @@
+package com.jobready.inventory;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class InventoryManager {
+	
+	List<Product> soldProductsList = new ArrayList<Product>();
+	List<Product> purchasedProductsList = new ArrayList<Product>();
+	
+	public void populateSoldProducts() {
+		for(int i = 0; i < 1000; i++) {
+			
+		}
+	}
+
+}

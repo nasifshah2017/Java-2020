@@ -1,0 +1,16 @@
+package com.jobready.producerconsumer;
+
+import java.util.List;
+
+public class Producer implements Runnable {
+	
+	List<Integer> questionList = null;
+	final int LIMIT = 5;
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

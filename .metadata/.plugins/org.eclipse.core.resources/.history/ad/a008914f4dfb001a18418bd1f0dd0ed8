@@ -1,0 +1,27 @@
+
+public class StringsPractice {
+	public static void main(String[] args) {
+	//	 System.out.println("hello world!");
+		
+		String a = "hello";
+		System.out.println(a.length());					// 5
+		
+		String str = "ABCDEFG";
+		int x = str.length();
+		System.out.println(x);              			// 7
+		
+		// This built-in Java methods extracts certain parts of 
+		// the string out
+		String extractedString = str.substring(1);
+		System.out.println(extractedString); 			// BCDEFG
+		
+		String extractedString2 = str.substring(2);
+		System.out.println(extractedString2); 			// CDEFG
+		
+		String extractedString3 = str.substring(0,2);
+		System.out.println(extractedString3); 			// AB
+		
+		String extractedString4 = str.substring(1,3);
+		System.out.println(extractedString4); 			// BC
+	}
+}

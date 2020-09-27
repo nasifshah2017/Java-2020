@@ -1,0 +1,7 @@
+
+public class Vehicle {
+	String make;
+	String model;
+	int price;
+	boolean fourWDrive;
+}

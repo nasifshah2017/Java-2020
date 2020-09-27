@@ -1,0 +1,4 @@
+// This class will us to create objects of type Human
+public class Human {
+
+}

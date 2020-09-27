@@ -1,0 +1,5 @@
+package com.jobready.inventory;
+
+public class InventoryManager {
+
+}

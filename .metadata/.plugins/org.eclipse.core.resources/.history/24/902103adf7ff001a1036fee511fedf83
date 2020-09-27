@@ -1,0 +1,13 @@
+package com.jobready.producerconsumer;
+
+public class Producer implements Runnable {
+	
+	List<Integer> questionList = null;
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

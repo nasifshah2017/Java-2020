@@ -1,0 +1,13 @@
+
+public class StringsPractice {
+	public static void main(String[] args) {
+	//	 System.out.println("hello world!");
+		
+		String a = "hello";
+		System.out.println(a.length());		// 5
+		
+		String str = "ABCDEFG";
+		int x = str.length();
+		System.out.println(x);
+	}
+}

@@ -1,0 +1,17 @@
+
+public class Earth {
+	
+	// This is the main(), its the entry point of all Java applications
+	public static void main(String arg[]) {
+		Human tom;
+		
+		tom = new Human();	// Declaring a new object
+		tom.age = 5;
+		tom.eyeColor = "brown";
+		tom.heightInInches = 72;
+		tom.name = "Tom Wilson";
+		
+		
+		tom.speak();        // Assigning to a method from the class 
+	} 
+}

@@ -1,0 +1,24 @@
+package com.jobready.threading;
+
+public class Application2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Sequence sequence = new Sequence();
+		
+		for(int i=0; i<100; i++) {
+			System.out.println(sequence.getNext());
+		}
+
+	}
+
+}
+
+class Worker extends Thread {
+	Sequence sequence = null;
+	
+	public Worker(Sequence sequnce) {
+		this.sequence = sequence;
+	}
+}

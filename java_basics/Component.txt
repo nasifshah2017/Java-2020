@@ -1,0 +1,32 @@
+I explain it to you about the main(), but related attached components are also to be cleared with 
+it. It is the method and the starting point for JVM to start the execution of a Java program. 
+Without this method, JVM will not execute the program and the syntax of the main() method is 
+written like.
+
+public static void main(String args[]) //static method
+public: It is an access specifier. You should use a public keyword before the main() method so 
+that JVM can identify the execution point of the program. If you use private, protected, and 
+default before the main() method, it will not be visible to JVM.
+
+static: You can make a method static by using the keyword static. You should call the main() 
+method without creating an object. Static methods are the method that invokes without creating 
+the objects, so you do not need any object to call the main() method.
+
+void: In Java, every method has the return type. The void keyword acknowledges the compiler 
+that the main() method does not return any value.
+
+main(): It is a default signature that is predefined in the JVM. It is called by JVM to execute a 
+program line by line and end the execution after completion of this method. You can also 
+overload the main() method.
+
+String args[]: The main() method also accepts some data from the user. It accepts a group of 
+strings, which is called a string array. It is used to hold the command line arguments in the form
+ of string values.
+
+Here, agrs[] is the array name, and it is of String type. It means that it can store a group of string. 
+Remember, this array can also store a group of numbers but in the form of string only. Values 
+passed to the main() method is called arguments. These arguments are stored into args[] array,
+ so the name args[] is generally used for it.
+
+I hope I was able to answer your question to your satisfaction. Let me know if there is anything 
+else I can do.

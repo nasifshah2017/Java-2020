@@ -1,0 +1,40 @@
+package com.jobready.threading;
+
+public class Application2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Sequence sequence = new Sequence();
+		
+		Worker worker1 = new Worker(sequence);
+		
+		for(int i=0; i<100; i++) {
+			System.out.println(sequence.getNext());
+		}
+
+	}
+
+}
+
+class Worker extends Thread {
+	Sequence sequence = null;
+	
+	public Worker(Sequence sequnce) {
+		this.sequence = sequence;
+	}
+	
+	public void run() {
+		for(int i=0; i<100; i++) {
+			System.out.println(Thread.currentThread().getName() + " got value: " + sequence.getNext());
+			try {
+				Thread.sleep(500);		// The Thread will stop for 500ms and then it will continue again
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+
+		
+	}
+}

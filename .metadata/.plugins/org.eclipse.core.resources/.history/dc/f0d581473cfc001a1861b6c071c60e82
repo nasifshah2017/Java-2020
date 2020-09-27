@@ -1,0 +1,6 @@
+
+public class FileUtils {
+	public int substract10FromLargerNumber(int number) {
+		return number-10;
+	}
+}

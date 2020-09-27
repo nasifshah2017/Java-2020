@@ -1,0 +1,13 @@
+
+public class Animal {
+	String name;
+	int age;
+	
+	// Constructor
+	public Animal(String name, int age) {
+		super();
+		this.name = name;
+		this.age = age;
+	}
+	
+}

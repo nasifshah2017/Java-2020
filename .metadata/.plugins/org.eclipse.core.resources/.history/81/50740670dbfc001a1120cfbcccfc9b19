@@ -1,0 +1,28 @@
+import java.util.HashSet;
+
+public class Application3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HashSet<Integer> values = new HashSet<Integer>();
+		
+		// HashSet does not store repeated values (duplicate values)
+		values.add(12);
+		values.add(43);
+		values.add(15);
+		values.add(67);
+		values.add(43);
+		
+		// Traversing through the HashSet using a for-each loop
+		for(Integer i : values) {
+			System.out.println(i);
+		}
+		
+		// Output: 	67
+		//			43
+		//			12
+		//			15
+
+	}
+
+}

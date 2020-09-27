@@ -1,0 +1,33 @@
+import java.util.HashMap;
+
+public class Application5 {
+
+	public static void main(String[] args) {
+		HashMap<String, String> dictionary = new HashMap<String, String>();
+		
+		// Adding values in our HashMap
+		
+		dictionary.put("Brave", "ready to face and endure danger or pain; showing courage.");
+		dictionary.put("Brilliant",  "exceptionally clever or talented.");
+		dictionary.put("Joy", "a feeling of great pleasure and happiness");
+		dictionary.put("Confidence", "the state of feeling certain about the truth of something.");
+		
+		// Traversing through our dictionary
+		
+		for(String i: dictionary.keySet()) {
+			System.out.println(i);
+		}
+		
+		// Output: 	Brilliant
+		//			Joy
+		//			Confidence
+		//			Brave
+		
+		// As you can see items in a HashMaps() are also not stored
+		// in an order rather they move around. Same like HashSet if 
+		// we want to bring an order then we can use LinkedHashMap
+		
+
+	}
+
+}

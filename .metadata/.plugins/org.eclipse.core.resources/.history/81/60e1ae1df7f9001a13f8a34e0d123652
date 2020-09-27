@@ -1,0 +1,15 @@
+// This class will us to create objects of type Human
+// Classes basically contain instructions on how objects 
+// should be created or how should they behave in the 
+//application
+public class Human {
+	
+	// Declaring human attributes
+	String name;
+	int age, heightInInches;
+	String eyeColor;
+
+}
+
+// using this human class we will be able to create as many
+// human objects in our world as we please

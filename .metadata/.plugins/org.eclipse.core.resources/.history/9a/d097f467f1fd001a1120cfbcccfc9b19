@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+public class Application {
+
+	public static void main(String[] args) {
+		ArrayList myList = new ArrayList();
+		myList.add("hello");
+		myList.add(100);
+		myList.add(false);
+		
+//		String myVal = myList.get(0);
+//      This gives error telling us what we stored in the
+//      zeroth index of the myList array isn't an string as
+//      as it counts that entry as an object. 
+
+	}
+
+}

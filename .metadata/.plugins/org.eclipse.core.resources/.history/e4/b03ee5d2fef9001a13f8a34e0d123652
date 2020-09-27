@@ -1,0 +1,10 @@
+
+public class Earth {
+	
+	// This is the main(), its the entry point of all Java applications
+	public static void main(String arg[]) {
+		Human tom;
+		
+		tom = new Human();	// Creating a new object
+	} 
+}

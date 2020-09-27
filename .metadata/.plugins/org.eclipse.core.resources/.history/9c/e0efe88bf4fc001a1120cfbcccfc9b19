@@ -1,0 +1,18 @@
+
+public class Employee implements Comparable<Employee> { // We need this interface
+											  // to use the .sort() method
+	
+	String name;
+	int salary;
+	String department;
+	
+	public Employee(String name, int salary, String department) {
+		super();
+		this.name = name;
+		this.salary = salary;
+		this.department = department;
+	}
+	
+	
+
+}

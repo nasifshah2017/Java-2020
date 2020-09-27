@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+
+public class Application4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<Integer> list1 = new ArrayList<Integer>();
+		
+		list1.add(12);
+		list1.add(43);
+		list1.add(15);
+		list1.add(67);
+		list1.add(43);
+		
+		ArrayList<Integer> newList = new ArrayList<Integer>();
+		newList.add(10);
+		
+		// Merging newList to list1
+		
+		list1.addAll(newList);
+
+	}
+
+}

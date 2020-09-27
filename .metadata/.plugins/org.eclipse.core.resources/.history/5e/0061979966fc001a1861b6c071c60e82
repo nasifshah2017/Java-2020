@@ -1,0 +1,42 @@
+import java.util.ArrayList;
+
+public class Application {
+
+	public static void main(String[] args) {
+		ArrayList words = new ArrayList();	// Declaring a new array
+		words.add("hello");					// Adding new items in an array
+		words.add("there");					
+		words.remove(0);					// Removing an item from the array
+		words.add(10);
+		words.add(9);
+		words.add(12.00);
+		words.add('H');
+		
+		
+		// When you have not type-casting, your array will
+		// not have any restriction as what data-type of 
+		// values you add to your array.
+		
+		// To get an item from the array list and store it
+		// inside a variable we do the following
+		
+		
+//		String item1 = words.get(0);
+		
+		
+		// The problem is the .get() method above will return an
+		// object rather than a value of type string, though when
+		// we stored our first value at the 0th index we stored it
+		// as a string but it in Java it returns us an object instead
+		// of the value that we stored. So, we need type-cast the 
+		// object which will convert it to the value of the type
+		// we are type-casting like following,
+		
+		
+		String item1 = (String) words.get(0);
+		
+		// Now we converted the object that we received using the 
+		// .get() method into string. 
+	}
+
+}

@@ -1,0 +1,66 @@
+import java.util.ArrayList;
+
+public class Application4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<Integer> list1 = new ArrayList<Integer>();
+		
+		list1.add(12);
+		list1.add(43);
+		list1.add(15);
+		list1.add(67);
+		list1.add(43);
+		
+		ArrayList<Integer> newList = new ArrayList<Integer>();
+		newList.add(10);
+		
+		// Merging newList to list1
+		
+//		list1.addAll(newList);
+		
+//		System.out.println(list1);
+		
+		// Output: [12, 43, 15, 67, 43, 10]
+		
+		// Removes all the items of newList from list1
+		
+//		list1.removeAll(newList);
+		
+		// Output: [12, 43, 15, 67, 43, 10, 43]
+		
+		// Now if we have same numbers in list1 and newList
+		// and we run list1.removeAll(newList), then those 
+		// numbers that are common in both lists are also 
+		// going to be removed
+		
+		list1.add(20);
+		list1.add(80);
+		list1.add(50);
+		newList.add(20);
+		newList.add(80);
+		newList.add(50);
+		
+		// Merging newList with list1
+		
+		list1.addAll(newList);
+		
+		System.out.println(list1);
+		
+		// Output: [12, 43, 15, 67, 43, 20, 80, 50, 10, 20, 80, 50]
+		
+		// Removing the newList from list1
+		
+		list1.removeAll(newList);
+		
+		System.out.println(list1);
+		
+		// Output: [12, 43, 15, 67, 43]
+
+		// As it can be seen all the common numbers between newList
+		// and the list1 got deleted. 
+
+	}
+
+}

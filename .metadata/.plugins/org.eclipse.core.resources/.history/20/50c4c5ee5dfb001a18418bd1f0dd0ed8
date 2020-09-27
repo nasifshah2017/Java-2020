@@ -1,0 +1,23 @@
+
+public class LoopsPractice {
+	
+	public static void main(String args[]) {
+		String str = "We have a large inventory of things in our warehouse falling in "
+				+ "the category:apparel and the slightly "
+				+ "more in demand category:makeup along with the category:furniture and....";
+				
+				printCategories(str);
+	}
+	
+	/**
+	 * extract all categories from the string argument
+	 * @param str *
+	 **/
+	
+	public static void printCategories(String str) {
+		int apparel = str.indexOf("apparel");
+		System.out.println(apparel);
+	}
+	
+	
+}

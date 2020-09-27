@@ -1,0 +1,35 @@
+I hope you will get it after knowing that the "Annotations" are used to provide supplemental information about a program. It is a tag that represents the "metadata" i.e. attached with class, interface, methods, or fields to indicate some additional information that can be used by java compiler and JVM.
+
+Annotations in Java are used to provide additional information, so it is an alternative option for XML and Java marker interfaces.
+
+The following explanation will show you what it behaves in the program.
+
+1.   Annotations start with ‘@’.
+
+2.   Annotations do not change the action of a compiled program.
+
+3.  Annotations do not change the action of a compiled program.
+
+4.  Annotations are not pure comments as they can change the way a program is treated by the compiler. See the below code for example.filter_none
+
+There are several built-in annotations in Java. Some annotations are applied to Java code and some to other annotations.
+
+Built-in Java Annotations used in Java code
+
+@Override
+
+@SuppressWarnings
+
+@Deprecated
+
+Built-in Java Annotations used in other annotations
+
+@Target
+
+@Retention
+
+@Inherited
+
+@Documented
+
+I hope I was able to answer your question to your satisfaction. Let me know if there is anything else I can do.

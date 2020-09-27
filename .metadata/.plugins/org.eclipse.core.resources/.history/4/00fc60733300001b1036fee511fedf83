@@ -1,0 +1,19 @@
+
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Human tom = new Human();
+		walker(tom);
+		
+		
+		Robot wale = new Robot();
+		wale.walk();
+	}
+	
+	public static void walker(Human human) {
+		human.walk();
+	}
+
+}

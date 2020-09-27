@@ -1,0 +1,8 @@
+// Letting the Bird class inherit Animal behaviors (methods/works)
+public class Bird extends Animal {	
+	
+	public void fly() {
+		System.out.println("Flying...");
+	}
+
+}

@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+
+public class Appilcation2 {
+
+	public static void main(String[] args) {
+		ArrayList<String> animals = new ArrayList<String>();
+		
+		animals.add("Lion");
+		animals.add("cat");
+		animals.add("Dog");
+		animals.add("Bird");
+
+	}
+
+}

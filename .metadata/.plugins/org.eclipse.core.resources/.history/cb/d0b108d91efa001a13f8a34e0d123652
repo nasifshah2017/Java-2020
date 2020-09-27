@@ -1,0 +1,28 @@
+
+public class Animal {
+	
+	int age;
+	String gender;
+	int weightInLbs;
+	
+	// Declaring the constructor()
+	public Animal(int age, String gender, int weightInLbs) {
+		super();
+		this.age = age;
+		this.gender = gender;
+		this.weightInLbs = weightInLbs;
+	}
+	
+	// Defining class methods 
+	public void eat() {
+		System.out.println("Eating...");
+	}
+	
+	public void sleep() {
+		System.out.println("Sleeping...");
+	}
+	
+	
+	
+
+}

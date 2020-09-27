@@ -1,0 +1,10 @@
+// An Interface is a contract, any class that implements an 
+// Interface 
+public interface Flyable {
+	
+	// Interfaces does not have bodies
+	
+	// abstract method
+	public void fly();
+
+}

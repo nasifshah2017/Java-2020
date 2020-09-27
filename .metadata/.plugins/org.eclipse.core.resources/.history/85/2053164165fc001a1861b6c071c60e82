@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+
+public class Application {
+
+	public static void main(String[] args) {
+		ArrayList words = new ArrayList();	// Declaring a new array
+		words.add("hello");					// Adding new items in an array
+		words.add("there");					
+		words.remove(0);					// Removing an item from the array
+		words.add(10);
+		words.add(9);
+		words.add(12.00);
+		words.add('H');
+		
+		// When you have not type-casting, your array will
+		// not have any restriction as what data-type of 
+		// values you add to your array.
+
+	}
+
+}

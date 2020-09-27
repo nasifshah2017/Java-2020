@@ -1,0 +1,24 @@
+package com.jobready.threadpools;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class ThreadPoolDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ExecutorService executor = Executors.newFixedThreadPool(2);
+		
+		Runnable processor = new MessageProcessor(2);
+		executor.execute(processor);
+		
+		Runnable processor = new MessageProcessor(3);
+		executor.execute(processor);
+		
+		Runnable processor = new MessageProcessor(4);
+		executor.execute(processor);
+
+	}
+
+}
